@@ -9,6 +9,19 @@ h1{
   color: red;
   text-align: center;
 padding-bottom: 30px;
+padding-top: 30px;
+}
+
+
+/*header*/
+
+div.user-box{
+  padding: 30px;
+  margin: 25px;
+
+}
+img{float: left;
+
 }
 
 h3,p{
@@ -19,22 +32,21 @@ a{
   color: cornflowerblue;
 }
 
-p{
+p.intro{
   text-align: center;
+  color: black;
 }
 
 .container{
   width: 100%;
-  background-color: rgb(162, 162, 162);
+  background-color: rgb(255, 255, 255);
   
 }
 
 .user-box{
   background-color: black;
+  box-sizing: 20px;
 }
-
-
-/*header*/
 
 
 /*main*/
