@@ -6,8 +6,8 @@
 }
 
 h1{
-  color: red;
-  text-align: center;
+color: red;
+text-align: center;
 padding-bottom: 30px;
 padding-top: 30px;
 }
@@ -18,8 +18,16 @@ padding-top: 30px;
 div.user-box{
   padding: 30px;
   margin: 25px;
+  box-sizing: 20px;
+  float: left;
+  }
 
-}
+.clearfix::after
+    content: "";
+    clear: both;
+    display: table;
+
+
 img{float: left;
 
 }
@@ -45,7 +53,7 @@ p.intro{
 
 .user-box{
   background-color: black;
-  box-sizing: 20px;
+  
 }
 
 
