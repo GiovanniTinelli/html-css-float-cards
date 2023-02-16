@@ -14,21 +14,32 @@ padding-top: 30px;
 
 
 /*header*/
+div.user-box .son{
+  background-color: white;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 
 div.user-box{
-  padding: 30px;
-  margin: 25px;
-  box-sizing: 20px;
+  width: calc(100% / 3);
   float: left;
+  padding: 10px;
+  
   }
 
-.clearfix::after
-    content: "";
-    clear: both;
-    display: table;
 
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 
 img{float: left;
+  width: 35%;
 
 }
 
@@ -43,6 +54,7 @@ a{
 p.intro{
   text-align: center;
   color: black;
+  padding-bottom: 30px;
 }
 
 .container{
